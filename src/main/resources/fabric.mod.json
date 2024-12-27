@@ -3,13 +3,13 @@
 	"id": "keids-divine-arsenal",
 	"version": "${version}",
 	"name": "Keid's Divine Arsenal",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "find me",
 	"authors": [
-		"Me!"
+		"MEEE :3"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Keid-here/keids-divine-arsenal"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/keids-divine-arsenal/icon.png",

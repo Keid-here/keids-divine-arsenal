@@ -17,7 +17,11 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 
-	maven { url 'https://maven.blamejared.com' }
+	maven {
+		url "https://cursemaven.com"
+	}
+
+	maven { url 'https://maven.wispforest.io/releases/' }
 }
 
 loom {
@@ -47,7 +51,12 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modImplementation("com.faux.faux-custom-entity-data:Faux-Custom-Entity-Data-fabric-1.20.1:6.0.1")
+	//modImplementation "curse.maven:framework-549225:5911975"
+
+	modImplementation "io.wispforest:owo-lib:${project.owo_version}"
+	include "io.wispforest:owo-sentinel:${project.owo_version}"
+
+
 	
 }
 
