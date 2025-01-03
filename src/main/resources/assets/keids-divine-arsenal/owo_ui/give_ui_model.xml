@@ -1,0 +1,156 @@
+<owo-ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/wisp-forest/owo-lib/1.20/owo-ui.xsd">
+
+    <components>
+        <flow-layout direction="horizontal">
+            <children>
+                <label>
+                    <text>Drinkcraft Shop</text>
+                    <shadow>true</shadow>
+
+                    <positioning type="relative">50,5</positioning>
+                </label>
+
+                <flow-layout direction="horizontal" id="right box">
+                    <children>
+
+
+                        <flow-layout direction="vertical" id="box-container-tabs">
+                            <children>
+
+                                <button id="overview_button">
+                                    <active>true</active>
+                                    <text>Overview</text>
+                                    <margins>
+                                        <all>3</all>
+                                    </margins>
+                                </button>
+                                <button id="shop_button">
+                                    <active>false</active>
+                                    <text>Shop</text>
+                                    <margins>
+                                        <all>3</all>
+                                    </margins>
+                                </button>
+                                <button id="coming_button">
+                                    <active>false</active>
+                                    <text>coming soon</text>
+                                    <margins>
+                                        <all>3</all>
+                                    </margins>
+                                </button>
+                            </children>
+                            <padding>
+                                <all>0</all>
+                            </padding>
+                            <margins>
+                                <all>5</all>
+                            </margins>
+                            <sizing>
+                                <vertical method="fixed">100</vertical>
+                                <horizontal method="fixed">75</horizontal>
+                            </sizing>
+                        </flow-layout>
+
+
+
+
+                        <flow-layout direction="vertical" id="box-container-shop">
+                            <children>
+
+                                <flow-layout direction="horizontal">
+                                    <children>
+                                        <item>
+                                            <stack>
+                                                drinkcraft:luckyticket
+                                            </stack>
+                                            <tooltip-text>a true random gamble</tooltip-text>
+                                            <margins><all>3</all> </margins>
+                                        </item>
+                                        <label>
+                                            <text>Lucky Scratcher </text>
+                                            <vertical-text-alignment>bottom</vertical-text-alignment>
+                                            <margins><all>5</all> </margins>
+                                        </label>
+                                        <button id="buy_lucky">
+                                            <text>buy</text>
+                                            <tooltip-text>buy a Lucky Ticket</tooltip-text>
+                                            <margins><all>3</all> </margins>
+                                        </button>
+                                    </children>
+
+
+                                    <vertical-alignment>center</vertical-alignment>
+                                </flow-layout>
+
+                                <flow-layout direction="horizontal">
+                                    <children>
+                                        <item>
+                                            <stack>
+                                                drinkcraft:superluckyticket
+                                            </stack>
+                                            <tooltip-text>way better rewards</tooltip-text>
+                                            <margins><all>3</all> </margins>
+                                        </item>
+                                        <label>
+                                            <text>Super lucky scratcher </text>
+                                            <vertical-text-alignment>bottom</vertical-text-alignment>
+                                            <margins><all>5</all> </margins>
+                                        </label>
+                                        <button id="buy_superlucky">
+                                            <text>buy</text>
+                                            <tooltip-text>buy</tooltip-text>
+                                            <margins><all>3</all> </margins>
+                                        </button>
+                                    </children>
+
+
+                                    <vertical-alignment>center</vertical-alignment>
+                                    </flow-layout>
+
+
+
+                           </children>
+
+
+                            <padding>
+                                <all>3</all>
+                            </padding>
+                            <margins>
+                                <all>5</all>
+                            </margins>
+                            <sizing>
+                                <vertical method="fixed">100</vertical>
+                                <horizontal method="fixed">250</horizontal>
+                            </sizing>
+
+
+                            <surface>
+                                <flat>#77000000</flat>
+                                <outline>#FF121212</outline>
+                            </surface>
+
+                        </flow-layout>
+
+
+
+                    </children>
+
+                    <horizontal-alignment>center</horizontal-alignment>
+                    <surface>
+                        <panel dark="true"/>
+                    </surface>
+
+                </flow-layout>
+            </children>
+
+            <vertical-alignment>center</vertical-alignment>
+            <horizontal-alignment>center</horizontal-alignment>
+
+            <surface>
+                <flat>#C0101010</flat>
+            </surface>
+
+        </flow-layout>
+    </components>
+</owo-ui>
