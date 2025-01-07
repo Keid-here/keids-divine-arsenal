@@ -1,5 +1,7 @@
 {
   "item.keids-divine-arsenal.alharusironblade": [
     { "text": "Alharus Iron Blade", "color": "#e8610e" }
-  ]
+  ],
+  "key.keids-divine-arsenal.GUI": "GUI",
+  "category.keids-divine-arsenal.gui_cat": "Keids Divine Arsenal"
 }

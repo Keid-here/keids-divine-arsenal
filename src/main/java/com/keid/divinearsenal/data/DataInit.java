@@ -8,6 +8,7 @@ import com.mrcrayfish.framework.api.sync.SyncedDataKey;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.minecraft.entity.passive.ChickenEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
@@ -23,10 +24,19 @@ public class DataInit implements ModInitializer {
             .syncMode(SyncedDataKey.SyncMode.TRACKING_ONLY)
             .build();
 
+    public static final SyncedDataKey<PlayerEntity, Integer> SPARK_COUNTER = SyncedDataKey.builder(SyncedClassKey.PLAYER, Serializers.INTEGER)
+            .id(new Identifier(MOD_ID, "spark_counter"))
+            .defaultValueSupplier(() -> 0)
+            .saveToFile()
+            .resetOnDeath()
+            .syncMode(SyncedDataKey.SyncMode.SELF_ONLY)
+            .build();
+
     @Override
     public void onInitialize() {
 
         FrameworkAPI.registerSyncedDataKey(HIT_COUNT);
+        FrameworkAPI.registerSyncedDataKey(SPARK_COUNTER);
 
 
     }

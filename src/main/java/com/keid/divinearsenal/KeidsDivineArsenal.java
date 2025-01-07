@@ -5,6 +5,7 @@ import com.keid.divinearsenal.events.EventRegister;
 import com.keid.divinearsenal.items.ItemInit;
 import com.mrcrayfish.framework.api.FrameworkAPI;
 import com.mrcrayfish.framework.api.event.EntityEvents;
+import com.mrcrayfish.framework.api.event.FrameworkEvent;
 import com.mrcrayfish.framework.api.sync.Serializers;
 import com.mrcrayfish.framework.api.sync.SyncedClassKey;
 import com.mrcrayfish.framework.api.sync.SyncedDataKey;
