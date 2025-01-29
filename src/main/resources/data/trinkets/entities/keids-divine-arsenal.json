@@ -1,0 +1,9 @@
+{
+  "entities": [
+    "player"
+  ],
+  "slots": [
+    "divine/gem",
+    "divine/soul"
+  ]
+}

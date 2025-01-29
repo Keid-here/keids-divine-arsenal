@@ -1,0 +1,14 @@
+{
+  "icon": "keids-divine-arsenal:slots/soul",
+  "amount": 1,
+  "order": -1,
+  "drop_rule": "keep",
+  "validator_predicates": [
+  ],
+  "quick_move_predicates": [
+    "trinkets:relevant"
+  ],
+  "tooltip_predicates": [
+    "trinkets:relevant"
+  ]
+}

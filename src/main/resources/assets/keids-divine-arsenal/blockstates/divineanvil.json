@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "east": {
+      "model": "keids-divine-arsenal:block/divineanvil",
+      "y": 270
+    },
+    "north": {
+      "model": "keids-divine-arsenal:block/divineanvil",
+      "y": 180
+    },
+    "south": {
+      "model": "keids-divine-arsenal:block/divineanvil"
+    },
+    "=west": {
+      "model": "keids-divine-arsenal:block/divineanvil",
+      "y": 90
+    }
+  }
+}

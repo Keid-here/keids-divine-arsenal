@@ -1,0 +1,13 @@
+{
+  "icon": "keids-divine-arsenal:slots/gem",
+  "amount": 3,
+  "drop_rule": "keep",
+  "validator_predicates": [
+  ],
+  "quick_move_predicates": [
+    "trinkets:relevant"
+  ],
+  "tooltip_predicates": [
+    "trinkets:relevant"
+  ]
+}

@@ -2,6 +2,16 @@
   "item.keids-divine-arsenal.alharusironblade": [
     { "text": "Alharus Iron Blade", "color": "#e8610e" }
   ],
-  "key.keids-divine-arsenal.GUI": "GUI",
-  "category.keids-divine-arsenal.gui_cat": "Keids Divine Arsenal"
+  "item.keids-divine-arsenal.fightingspirit": [
+    { "text": "Alharus Fighting Spirit", "color": "#e8610e" }
+  ],
+  "item.keids-divine-arsenal.namelesscompass": [
+    { "text": "Nameless Compass", "color": "#1e20ca" }
+  ],
+  "key.keids-divine-arsenal.GUI": "HUD toggle",
+  "key.keids-divine-arsenal.guiscreen": "GUI",
+  "category.keids-divine-arsenal.gui_cat": "Keids Divine Arsenal",
+  "trinkets.slot.divine.gem": "Gems",
+  "trinkets.slot.divine.soul": "Souls",
+  "block.keids-divine-arsenal.divineanvil": "Divine Anvil"
 }
